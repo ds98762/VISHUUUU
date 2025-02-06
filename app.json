@@ -1,5 +1,5 @@
 {
-    "name": "ғᴀʟʟᴇɴ ダ ᴍᴜsɪᴄ",
+    "name": "𝛎𝛊𝛅ʜ𝛍 ダ ᴍᴜsɪᴄ",
     "description": "A VC Player Bot for telegram videochats, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://te.legra.ph/file/6f99c49bdb4679acad717.jpg",
     "keywords": [
@@ -28,11 +28,11 @@
       },
       "OWNER_ID": {
         "description": "Fill your user id here. (Must be integer)",
-        "value": "1356469075",
+        "value": "8196930318",
         "required": true
       },
       "SESSION": {
-        "description": "A pyrogram v2 string session from @StringFatherBot",
+        "description": "A pyrogram v2 string session from @DhimanStringBot",
         "value": "",
         "required": true
       },
@@ -43,19 +43,19 @@
       },
       "SUPPORT_CHAT": {
         "description": "Link of your telegram support group. (Must pe public)",
-        "value": "https://t.me/DevilsHeavenMF",
+        "value": "https://t.me/i_dxlvir",
         "required": false
       }
     },
     "buildpacks": [
           {
-              "url": "heroku/python"
+              "url": "heroku/java"
           },
           {
               "url": "heroku/nodejs"
           },
           {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+              "url": "https://github.com/quit/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
       "stack": "container"
